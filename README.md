@@ -19,7 +19,7 @@ The dataset(archive.zip) contains records of patients' symptoms and their diagno
    ```bash
    git clone <repo-url>
 
-2. Install Required Libraries:
+2. **Install Required Libraries:**
    - pandas
    - numpy
    - scikit-learn
