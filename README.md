@@ -6,7 +6,7 @@
 This project uses a Bayesian Network model for disease diagnosis based on patient symptoms. The aim is to predict the most probable disease based on a set of symptoms, utilizing a dataset of various diseases and their associated symptoms. The Bayesian Network is built by calculating conditional probability distributions (CPDs) between diseases and symptoms, and inference is performed to predict diseases from observed symptoms.
 
 ### **Dataset**
-The dataset contains records of patients' symptoms and their diagnosed diseases. The symptoms are categorized, and for each patient, some symptoms may be missing (NaN). The dataset is cleaned, and missing values are filled based on the most common (mode) symptoms for each disease.
+The dataset(archive.zip) contains records of patients' symptoms and their diagnosed diseases. The symptoms are categorized, and for each patient, some symptoms may be missing (NaN). The dataset is cleaned, and missing values are filled based on the most common (mode) symptoms for each disease.
 
 - **Columns in Dataset**:
   - `Disease`: The diagnosed disease.
