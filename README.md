@@ -34,26 +34,27 @@ The required libraries include:
 
 4. **Running the Project**
    
-   - Data Preprocessing:
+   - DATA PREPROCESSING:
+     
       The dataset is loaded and cleaned by removing columns with excessive missing values.
       Missing values in the symptom columns are filled using the mode of the symptoms for each disease.
-
-
-   - Data Encoding:
+     
+   - DATA ENCODING:
+     
       The diseases are label-encoded to convert them into numeric form.
      Symptom columns are transformed into binary features using one-hot encoding to facilitate usage in the Bayesian Network.
 
-   - Bayesian Network Model:
+   - BAYESIAN NETWORK MODEL:
 
       A Bayesian Network is defined, where each symptom is considered as a dependent variable (child) of the disease node (parent).
       Conditional Probability Distributions (CPDs) are calculated for the disease and the symptoms.
      
-   - Inference:
+   - INFERENCE:
 
      The model is validated to ensure all CPDs are correctly defined.
      Variable Elimination is used for inference to predict the disease given a set of observed symptoms.
      
-   - Model Testing:
+   - MODEL TESTING:
 
      The dataset is split into training and test sets.
      The model is tested on the test set, and accuracy is calculated based on how many correct disease predictions are made.
