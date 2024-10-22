@@ -20,19 +20,17 @@ The dataset(archive.zip) contains records of patients' symptoms and their diagno
    git clone <repo-url>
 
 2. Install Required Libraries:
-The required libraries include:
-
    - pandas
    - numpy
    - scikit-learn
    - pgmpy
-   - 
+     
 3. **Download the Dataset**:
 
    You can download the dataset from Kaggle and place it in the same directory as the notebook.
    If you use Colab, you can directly upload the dataset to Google Drive.
 
-4. **Running the Project**
+4. **Code Overview**
    
    - DATA PREPROCESSING:
      
@@ -58,3 +56,24 @@ The required libraries include:
 
      The dataset is split into training and test sets.
      The model is tested on the test set, and accuracy is calculated based on how many correct disease predictions are made.
+
+## Usage
+
+### Run the Notebook:
+
+1. Open the Colab Notebook (`.ipynb file`).
+2. Run the cells sequentially to:
+   - Build the Bayesian Network model.
+   - Perform inference based on the trained model.
+   - Evaluate the model’s performance using the test dataset.
+  
+## Results
+
+- The model predicts diseases with an accuracy of **55%** for now based on the test data.
+
+## Future Improvements
+
+- Incorporate additional non-NaN symptoms or features to improve model performance and eventually the accuracy.
+- Explore other probabilistic graphical models or machine learning approaches for disease prediction.
+
+
